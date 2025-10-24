@@ -99,6 +99,7 @@ const cartModal = document.getElementById('cart-modal');
 
 document.getElementById('checkout-btn').addEventListener('click', () => {
     const cartContainer = document.getElementById('cart-items');
+      cartContainer.innerHTML = ''
 
     let totalAmount= 0;
     let totalQnt = 0;
@@ -152,6 +153,7 @@ document.getElementById('continue-shopping').addEventListener('click', () => {
 
 document.getElementById('checkout').addEventListener('click',()=>{
     alert('Proceeding to checkout....');
+    cartContainer.innerHTML = ''
     
 } )
 
