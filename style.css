@@ -1,0 +1,8 @@
+.body-blr{
+    filter: blur(20px);
+    /* background-color: rgb(119, 115, 115); */
+}
+
+.background{
+    background-color: rgb(212, 210, 210);
+}
